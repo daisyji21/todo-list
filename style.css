@@ -1,0 +1,88 @@
+
+.container{
+    flex: 1;
+    font-family: "Montserrat", sans-serif;
+  color: aliceblue;
+  background: #0c0c0c;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    background: rgb(9, 9, 9);
+    font-family: "Montserrat", sans-serif;
+  color: rgb(219, 238, 238);
+    
+}
+.sidebar{
+ 
+     flex-direction: column; 
+     font-family: "Montserrat", sans-serif;
+  color: aliceblue;
+  background: #000;
+
+  padding :15px; 
+  position: relative;
+  width: 25%;
+  
+   
+}
+.footer{
+    background: #7e62c6;
+    position:fixed;
+   width: 100%;
+   bottom: 0;
+   height: 5rem;
+   font-family: "Montserrat", sans-serif;
+  color: aliceblue;
+
+}
+.box1{
+    background: rgb(78, 75, 75 ,       0.5  );
+    border-radius: 5%;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+  color: aliceblue;
+
+}
+.button{
+    color: black;
+    border-radius: 35%;
+    font-family: "Montserrat", sans-serif;
+ 
+  font-weight: 200px;
+  height: 50px;
+  
+    
+}
+.lib{
+    background: rgb(78, 75, 75,0.5);
+    border-radius: 5%;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+  color: aliceblue;
+ 
+
+}
+.navbar{
+    position:absolute;
+    position:fixed;
+    width:100%;
+    height:50px;
+    background: #000;
+    justify-content: space-between;
+}
+.card-container{
+    display: flex;
+    
+}
+.card{
+    background: #736c6c ;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-left: 1.5rem;
+}
+.signup{
+    background: fff;
+    color: #000;
+    justify-self: right;
+}
